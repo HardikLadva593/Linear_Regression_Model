@@ -1,0 +1,11 @@
+touch .gitignore
+git config -- global user.name HardikLadva594
+git config -- global user.email HardikLadva594@gmail.com
+git init
+git add .
+git commit -m "Initial Commit"
+git status
+ssh-keygen -t rsa -b 4096 -C "hardikladva594@gmail.com"
+tail <path to id>
+git remote add origin <ssh url.git>
+git push origin master
